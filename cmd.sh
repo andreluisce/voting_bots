@@ -1,0 +1,1 @@
+autocannon -c 100 -p 1 -d 10 -m POST -F "{\"action\":{\"type\":\"text\",\"value\":\"it_epoll_vote\"},\"option_id\":{\"type\":\"text\",\"value\":\"12154221640426\"},\"poll_id\":{\"type\":\"text\",\"value\":\"1190\"}}" https://seedlisting.com/wp-admin/admin-ajax.php

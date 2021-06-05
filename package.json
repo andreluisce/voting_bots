@@ -1,0 +1,19 @@
+{
+  "name": "voting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seedlisting": "forever --minUptime 5000 --spinSleepTime 5000 seedlisting.js",
+    "coinhunters": "forever --minUptime 5000 --spinSleepTime 5000 coinhunters.js",
+    "auto": "forever --minUptime 5000 --spinSleepTime 5000 autocannon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.3.0",
+    "axios": "^0.21.1",
+    "forever": "^4.0.0",
+    "puppeteer": "^10.0.0"
+  }
+}
